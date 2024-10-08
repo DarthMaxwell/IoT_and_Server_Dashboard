@@ -1,0 +1,4 @@
+spring.mvc.view.prefix = /WEB-INF/classes/templates
+spring.mvc.view.suffix = .jsp
+
+spring.application.name=IoT_and_Server_Dashboard

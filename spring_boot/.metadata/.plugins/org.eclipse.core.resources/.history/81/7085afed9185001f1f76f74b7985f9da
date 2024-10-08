@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/simple.css">
+	<script src="js/myscript.js" defer></script>  
+<title>Log in</title>
+</head>
+<body>
+	<h2>Log in</h2>
+	<p style="color:red;"><span></span>${melding}</p>
+	<form method="post" onsubmit="return validInnlogging()">
+		<fieldset>
+			<label for="mobil">Mobil:</label> <input type="text" name="mobil"/>
+			<label for="passord">Passord:</label> <input type="password" name="passord" />
+			<br><br><button type="submit">Logg inn</button>
+		</fieldset>
+	</form>
+</body>
+</html>
