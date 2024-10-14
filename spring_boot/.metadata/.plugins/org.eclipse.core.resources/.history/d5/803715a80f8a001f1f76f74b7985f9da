@@ -1,0 +1,5 @@
+package com.personal.dashboard.services;
+
+public class PasswordService {
+
+}
