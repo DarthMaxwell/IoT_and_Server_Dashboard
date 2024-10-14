@@ -11,7 +11,7 @@
 	<p style="color:red;"><span></span>${melding}</p>
 	<form method="post" onsubmit="return validInnlogging()">
 		<fieldset>
-			<label for="username">Usernaem:</label> <input type="text" name="username"/>
+			<label for="username">Username:</label> <input type="text" name="username"/>
 			<label for="passord">Password:</label> <input type="password" name="password" />
 			<br><br><button type="submit">Log in</button>
 		</fieldset>

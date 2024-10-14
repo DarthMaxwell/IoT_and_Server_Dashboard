@@ -181,12 +181,15 @@
   <el>
    <linked-el length="10" name="%0" offset="249" path="%1"/>
    <linked-el length="10" name="%0" offset="249" path="%2"/>
+   <linked-el length="8" name="%3" offset="204" path="%4"/>
   </el>
  </validation>
  <aliases>
   <alias path="melding" value="%0"/>
   <alias path="/dashboard/src/webapp/WEB-INF/login.jsp" value="%2"/>
   <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/login.jsp" value="%1"/>
+  <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/error.jsp" value="%4"/>
+  <alias path="error" value="%3"/>
  </aliases>
  <includes/>
  <uris/>

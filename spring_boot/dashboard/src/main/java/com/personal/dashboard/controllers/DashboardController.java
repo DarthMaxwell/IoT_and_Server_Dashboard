@@ -11,11 +11,6 @@ public class DashboardController {
 		// If logged in then show dashboard else
 		
 		// add rediect later
-		return "login";
-	}
-	
-	@GetMapping("/error")
-	public String error() {
-		return "login";
+		return "redirect:login";
 	}
 }
