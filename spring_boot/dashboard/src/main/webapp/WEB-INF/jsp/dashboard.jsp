@@ -9,5 +9,7 @@
 <body>
 	<h2>Dashboard</h2>
 	<p>last updated</p>
+	<p>Host 1 - ${Host1}</p>
+	<p>Host 2 - ${Host2}</p>
 </body>
 </html>

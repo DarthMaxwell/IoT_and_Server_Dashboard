@@ -179,17 +179,22 @@
  <validation>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="10" name="%0" offset="249" path="%1"/>
-   <linked-el length="10" name="%0" offset="249" path="%2"/>
-   <linked-el length="8" name="%3" offset="204" path="%4"/>
+   <linked-el length="8" name="%0" offset="281" path="%1"/>
+   <linked-el length="10" name="%2" offset="249" path="%3"/>
+   <linked-el length="10" name="%2" offset="249" path="%4"/>
+   <linked-el length="8" name="%5" offset="254" path="%1"/>
+   <linked-el length="8" name="%6" offset="204" path="%7"/>
   </el>
  </validation>
  <aliases>
-  <alias path="melding" value="%0"/>
-  <alias path="/dashboard/src/webapp/WEB-INF/login.jsp" value="%2"/>
-  <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/login.jsp" value="%1"/>
-  <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/error.jsp" value="%4"/>
-  <alias path="error" value="%3"/>
+  <alias path="Host2" value="%0"/>
+  <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/dashboard.jsp" value="%1"/>
+  <alias path="melding" value="%2"/>
+  <alias path="Host1" value="%5"/>
+  <alias path="/dashboard/src/webapp/WEB-INF/login.jsp" value="%4"/>
+  <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/login.jsp" value="%3"/>
+  <alias path="/dashboard/src/main/webapp/WEB-INF/jsp/error.jsp" value="%7"/>
+  <alias path="error" value="%6"/>
  </aliases>
  <includes/>
  <uris/>
