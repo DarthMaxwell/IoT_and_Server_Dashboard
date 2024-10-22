@@ -1,0 +1,12 @@
+package com.personal.dashboard.services;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class PasswordService {
+	public String createPassword(String passord) {
+		
+	}
+	
+	
+}
