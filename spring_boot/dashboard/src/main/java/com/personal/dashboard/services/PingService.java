@@ -18,4 +18,13 @@ public class PingService {
 		
 		return new boolean[] {inet1.isReachable(1000), inet2.isReachable(1000)};
 	}
+	
+	public boolean[] pingIpandPort(byte[] ip, int[] port) throws IOException {
+		InetAddress inet1 = InetAddress.getByAddress(ip);
+		//Socket socket = new Socket();
+		
+		
+		
+		return new boolean[] {inet1.isReachable(1000), false};
+	}
 }
