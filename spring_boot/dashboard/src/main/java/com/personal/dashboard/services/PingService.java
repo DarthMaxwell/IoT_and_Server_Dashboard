@@ -23,8 +23,6 @@ public class PingService {
 		InetAddress inet1 = InetAddress.getByAddress(ip);
 		//Socket socket = new Socket();
 		
-		
-		
 		return new boolean[] {inet1.isReachable(1000), false};
 	}
 }
