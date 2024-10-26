@@ -9,7 +9,7 @@
 <body>
 	<h2>Log in</h2>
 	<p style="color:red;"><span></span>${msg}</p>
-	<form method="post" onsubmit="return validInnlogging()">
+	<form method="post"> <!--onsubmit="return validInnlogging()"-->
 		<fieldset>
 			<label for="username">Username:</label> <input type="text" name="username"/>
 			<label for="passord">Password:</label> <input type="password" name="password" />

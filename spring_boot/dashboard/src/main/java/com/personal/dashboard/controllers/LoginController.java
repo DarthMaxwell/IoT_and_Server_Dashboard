@@ -31,7 +31,7 @@ public class LoginController {
 		
 		if (!ps.checkLogin(username, password)) {
 			ra.addFlashAttribute("msg", "Username or Password incorrect");
-			return "rederect:login";
+			return "redirect:login";
 		}
 		
 		request.getSession().invalidate();
@@ -39,6 +39,6 @@ public class LoginController {
 		ses.setMaxInactiveInterval(3600); // 1 hour
 		ses.setAttribute("admin", "admin");
 		
-		return "rederect:dashboard";
+		return "redirect:";
 	}
 }

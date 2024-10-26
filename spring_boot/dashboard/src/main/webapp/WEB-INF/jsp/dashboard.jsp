@@ -9,7 +9,10 @@
 <body>
 	<h2>Dashboard</h2>
 	<p>last updated</p>
-	<p>Host 1 - ${Host1}</p>
-	<p>Host 2 - ${Host2}</p>
+	<h3>${host1}</h3>
+	<p>${host1} is ${(host1Ping) ? "alive" : "dead"} and port ${host1Port} is ${(host1PortCon) ? "open" : "closed"}</p>
+
+	<h3>${host2}</h3>
+	<p>${host2} is ${(host2Ping) ? "alive" : "dead"} and port ${host2Port} is ${(host2PortCon) ? "open" : "closed"}</p>
 </body>
 </html>
